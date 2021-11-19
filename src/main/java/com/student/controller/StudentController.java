@@ -38,7 +38,7 @@ public class StudentController {
 		
 		 addStudents = studentService.getAllStudents();
 		 
-		 if(addStudents.size()<=0) {
+		 if(addStudents.size() <= 0) {
 			 return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
 		 }
 		 else {
