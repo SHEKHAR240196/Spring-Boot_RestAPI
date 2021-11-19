@@ -24,7 +24,7 @@ public class Student {
 		
 	}
 	
-    @Id
+   	 @Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private int id;
 	
