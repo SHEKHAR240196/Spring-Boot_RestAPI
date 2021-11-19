@@ -82,7 +82,7 @@ public class StudentService {
 		return this.studentRepository.findAll(sort);
 	}
 	
-	// sorting the data in ascending order by using Sort class and Direction enum
+	 // sorting the data in ascending order by using Sort class and Direction enum
 		public List<Student> getAllStudentsBySorting_Descending() {
 			
 			Sort sort = Sort.by(Sort.Direction.DESC,"firstName");
